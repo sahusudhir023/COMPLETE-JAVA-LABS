@@ -10,6 +10,7 @@ I have divided my code into separate packages to keep everything organized:
 
 * **`pkg01_basics`**: Contains basic Java programs like Variables, Operators, and If-Else conditions.
 * **`pkg02_patterns`**: Contains more than 30 different types of logic patterns and number pyramids (such as Diamond, Palindrome Triangles, and Circular Rotation Matrix).
+* **`pkg03_logical_questions`**: Contains standard interview programs based on mathematical algorithms, loop optimizations, and edge-case handling (like Fibonacci, Reverse, Binary/Decimal, and Armstrong numbers).
 
 ## 💻 Tech Stack & Tools
 * **Language**: Java
