@@ -2,23 +2,24 @@ package pkg03_logical_questions;
 
 import java.util.Scanner;
 
+
+/**
+ * @author SUDHIR
+ * Question: Calculate nCr (Combination)
+ * Description: This program takes two integers n (total objects) and r (objects chosen) 
+ * as input and calculates the total combinations using the formula: nCr = n! / (r! * (n-r)!)
+ * 
+ * <p><b>Example:</b></p>
+ * <pre>
+ * Input: n = 5, r = 2
+ * Output:
+ * Enter the integer number of total objects(n): 5
+ * Enter the integer number of objects chosen at once(r): 2
+ * 5c2 Calculate is : 10
+ * </pre>
+ */
 public class NcRCalculator {
 	
-	/**
-	 * @author SUDHIR
-	 * Question: Calculate nCr (Combination)
-	 * Description: This program takes two integers n (total objects) and r (objects chosen) 
-	 * as input and calculates the total combinations using the formula: nCr = n! / (r! * (n-r)!)
-	 * 
-	 * <p><b>Example:</b></p>
-	 * <pre>
-	 * Input: n = 5, r = 2
-	 * Output:
-	 * Enter the integer number of total objects(n): 5
-	 * Enter the integer number of objects chosen at once(r): 2
-	 * 5c2 Calculate is : 10
-	 * </pre>
-	 */
 	public static int factorial(int a) {
 		
 		int ans = 1;

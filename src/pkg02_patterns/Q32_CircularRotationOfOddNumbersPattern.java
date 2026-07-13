@@ -45,6 +45,8 @@ public class Q32_CircularRotationOfOddNumbersPattern {
 			System.out.println();
 			i++;
 		}
+		
+		s.close();
 	}
 
 }

@@ -29,6 +29,8 @@ public class Q08_FindPowerOfANumber {
 		}
 		System.out.println("Base x="+ x + " ,Power n=" + n +" = "+ ans);
 		
+		s.close();
+		
 	}
 
 }
