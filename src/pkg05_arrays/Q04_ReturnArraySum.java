@@ -6,9 +6,9 @@ import java.util.Scanner;
 /**
  * @author SUDHIR
  * Question: Calculate the Sum of Array Elements
- * * Description: 
- * This program takes a dynamic array as input from the user and calculates 
+ * Description: This program takes a dynamic array as input from the user and calculates 
  * the total sum of all its elements using a single-pass loop approach.
+ * 
  * * Sample Input/Output Example:
  * -------------------------------------------
  * SAMPLE INPUT:

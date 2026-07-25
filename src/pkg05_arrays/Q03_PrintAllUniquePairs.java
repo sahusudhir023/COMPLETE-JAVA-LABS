@@ -6,9 +6,9 @@ import java.util.Scanner;
 /**
  * @author SUDHIR
  * Question: Print All Unique Pairs in an Array
- * * Description: 
- * This program takes a dynamic array as input from the user and prints all possible 
+ * Description: This program takes a dynamic array as input from the user and prints all possible 
  * unique pairs of elements using a nested loop approach.
+ * 
  * * Sample Input/Output Example:
  * -------------------------------------------
  * SAMPLE INPUT:

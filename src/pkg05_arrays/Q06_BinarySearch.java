@@ -6,10 +6,10 @@ import java.util.Scanner;
 /**
  * @author SUDHIR
  * Question: Binary Search in a Sorted Array
- * * Description: 
- * This program takes a dynamic sorted integer array and a target element as input from the user. 
+ * * Description: This program takes a dynamic sorted integer array and a target element as input from the user. 
  * It implements the Binary Search algorithm using a divide-and-conquer approach to find and return 
  * the 0-based index of the target element. If the element is not found, it returns -1.
+ * 
  * * Sample Input/Output Example:
  * -------------------------------------------
  * SAMPLE INPUT:

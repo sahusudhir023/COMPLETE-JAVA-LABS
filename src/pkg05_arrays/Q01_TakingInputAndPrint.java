@@ -8,6 +8,23 @@ import java.util.Scanner;
  * Question: Array Input and Dynamic Memory Allocation
  * Description: This program demonstrates how to take dynamic input for an array 
  * from the user, allocate memory at runtime, and print the array elements using modular methods.
+ * * Sample Input/Output Example:
+ * -------------------------------------------
+ * SAMPLE INPUT:
+ * Enter the array size:
+ * 5
+ * Enter the element at index 0:
+ * 12
+ * Enter the element at index 1:
+ * 65
+ * Enter the element at index 2:
+ * 7
+ * Enter the element at index 3:
+ * 98
+ * Enter the element at index 4:
+ * 23
+ * * SAMPLE OUTPUT:
+ * The array elements are: [ 12 65 7 98 23 ]
  */
 
 public class Q01_TakingInputAndPrint {

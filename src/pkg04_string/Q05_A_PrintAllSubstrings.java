@@ -27,26 +27,26 @@ import java.util.Scanner;
 public class Q05_A_PrintAllSubstrings {
 
 	public static void printSubstrings(String str) {
-		for(int start=0; start<str.length(); start++) {
-			
-			for(int end=start; end<str.length(); end++) {
-				System.out.println(str.substring(start, end+1));
+		for (int start = 0; start < str.length(); start++) {
+
+			for (int end = start; end < str.length(); end++) {
+				System.out.println(str.substring(start, end + 1));
 			}
 			System.out.println();
 		}
 	}
-	
+
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		
+
 		System.out.println("Enter the words:");
 		String str = sc.nextLine();
-		
+
 		System.out.println("\n--- Input word is: " + str);
-		
+
 		System.out.println("\n-- OUTPUT DATA SUBSTRING");
 		printSubstrings(str);
-		
+
 		sc.close();
 	}
 

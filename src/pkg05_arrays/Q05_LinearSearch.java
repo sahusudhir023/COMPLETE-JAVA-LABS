@@ -5,10 +5,10 @@ import java.util.Scanner;
 /**
  * @author SUDHIR
  * Question: Linear Search in an Array (Find Element Position)
- * * Description: 
- * This program takes a dynamic integer array and a target element as input from the user. 
+ * * Description: This program takes a dynamic integer array and a target element as input from the user. 
  * It implements the Linear Search algorithm using a single-pass loop to find and return 
  * the 1-based position of the target element. If the element is not found, it returns -1.
+ * 
  * * Sample Input/Output Example:
  * -------------------------------------------
  * SAMPLE INPUT:

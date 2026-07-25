@@ -6,10 +6,10 @@ import java.util.Scanner;
 /**
  * @author SUDHIR
  * Question: Selection Sort Algorithm
- * * Description: 
- * This program takes an unsorted dynamic array from the user and sorts it in ascending 
+ * * Description: This program takes an unsorted dynamic array from the user and sorts it in ascending 
  * order using the Selection Sort algorithm. It repeatedly finds the minimum element 
  * from the unsorted part and puts it at the beginning.
+ *
  * * Sample Input/Output Example:
  * -------------------------------------------
  * SAMPLE INPUT:

@@ -16,15 +16,20 @@ import java.util.Scanner;
  * Enter the array size:
  * 3
  * Please enter the sorted array:
- * Enter the element at index 0: 10
- * Enter the element at index 1: 30
- * Enter the element at index 2: 50
+ * Enter the element at index 0: 
+ * 10
+ * Enter the element at index 1: 
+ * 30
+ * Enter the element at index 2: 
+ * 50
  * * --- Enter the second array elements ---
  * Enter the array size:
  * 2
  * Please enter the sorted array:
- * Enter the element at index 0: 20
- * Enter the element at index 1: 40
+ * Enter the element at index 0: 
+ * 20
+ * Enter the element at index 1: 
+ * 40
  * * --- INPUT DATA ---
  * --- First array elements ---
  * The array elements are: [ 10 30 50 ]
