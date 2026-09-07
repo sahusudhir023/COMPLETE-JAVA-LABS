@@ -2,24 +2,25 @@ package pkg02_patterns;
 
 import java.util.Scanner;
 
+
+/**
+ * @author SUDHIR
+ * Question: Mirror Image Star Triangle Pattern
+ * Description: This program takes an integer n and prints a right-angled triangle 
+ * pattern of stars aligned to the right side, prefixed with spaces.[cite: 3]
+ * 
+ * <p><b>Example:</b></p>
+ * <pre>
+ * Input: n = 4
+ * Output:
+ *       * 
+ *     * * 
+ *   * * * 
+ * * * * * 
+ * </pre>
+ */
 public class Q15_MirrorImageStarTriangle {
     
-	/**
-	 * @author SUDHIR
-	 * Question: Mirror Image Star Triangle Pattern
-	 * Description: This program takes an integer n and prints a right-angled triangle 
-	 * pattern of stars aligned to the right side, prefixed with spaces.[cite: 3]
-	 * 
-	 * <p><b>Example:</b></p>
-	 * <pre>
-	 * Input: n = 4
-	 * Output:
-	 *       * 
-	 *     * * 
-	 *   * * * 
-	 * * * * * 
-	 * </pre>
-	 */
 	public static void main(String[] args) {
 		
 		Scanner s = new Scanner(System.in);

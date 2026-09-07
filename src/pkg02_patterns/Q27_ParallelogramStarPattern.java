@@ -2,23 +2,24 @@ package pkg02_patterns;
 
 import java.util.Scanner;
 
+
+/**
+ * @author SUDHIR
+ * Question: Right-Leaning Star Parallelogram Pattern
+ * Description: This program takes an integer n and prints a parallelogram pattern 
+ * of stars, where each subsequent row shifts to the right by adding leading spaces.
+ * * <p><b>Example:</b></p>
+ * <pre>
+ * Input: n = 4
+ * Output:
+ * * * * * 
+ *   * * * *
+ *     * * * * 
+ *      * * * * 
+ * </pre>
+ */
 public class Q27_ParallelogramStarPattern {
     
-	/**
-	 * @author SUDHIR
-	 * Question: Right-Leaning Star Parallelogram Pattern
-	 * Description: This program takes an integer n and prints a parallelogram pattern 
-	 * of stars, where each subsequent row shifts to the right by adding leading spaces.
-	 * * <p><b>Example:</b></p>
-	 * <pre>
-	 * Input: n = 4
-	 * Output:
-	 * * * * * 
-	 *   * * * *
-	 *     * * * * 
-	 *      * * * * 
-	 * </pre>
-	 */
 	public static void main(String[] args) {
 		
 		Scanner s = new Scanner(System.in);

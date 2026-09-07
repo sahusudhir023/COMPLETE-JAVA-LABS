@@ -2,24 +2,25 @@ package pkg02_patterns;
 
 import java.util.Scanner;
 
+
+/**
+ * @author SUDHIR
+ * Question: Floyd's Triangle Pattern (Continuous Number Triangle)
+ * Description: This program takes an integer n and prints a triangle where 
+ * numbers keep counting upwards continuously from 1 to the end.
+ * 
+ * * <p><b>Example:</b></p>
+ * <pre>
+ * Input: n = 4
+ * Output:
+ * 1
+ * 2 3
+ * 4 5 6
+ * 7 8 9 10
+ * </pre>
+ */
 public class Q07_FloydsTrianglePattern {
 	
-	/**
-	 * @author SUDHIR
-	 * Question: Floyd's Triangle Pattern (Continuous Number Triangle)
-	 * Description: This program takes an integer n and prints a triangle where 
-	 * numbers keep counting upwards continuously from 1 to the end.
-	 * 
-	 * * <p><b>Example:</b></p>
-	 * <pre>
-	 * Input: n = 4
-	 * Output:
-	 * 1
-	 * 2 3
-	 * 4 5 6
-	 * 7 8 9 10
-	 * </pre>
-	 */
 	public static void main(String[] args) {
 		
 		Scanner s = new Scanner(System.in);

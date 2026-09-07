@@ -2,12 +2,13 @@ package pkg01_basics;
 
 import java.util.Scanner;
 
-public class Q01_CalculateAverageMarks {
+public class Q01_A_CalculateAverageMarks {
 	
 	/**
 	 * @author SUDHIR
 	 * Question: Calculate Average Marks
-	 * Description: This program takes the user's name (prints the first character) 
+	 * Description: 
+	 * This program takes the user's name (prints the first character) 
 	 * and calculates the average of three test marks.
 	 */
 

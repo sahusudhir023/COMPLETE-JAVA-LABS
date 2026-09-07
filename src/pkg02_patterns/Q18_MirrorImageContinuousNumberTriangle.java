@@ -2,24 +2,25 @@ package pkg02_patterns;
 
 import java.util.Scanner;
 
+
+/**
+ * @author SUDHIR
+ * Question: Mirror Image Continuous Number Triangle Pattern
+ * Description: This program takes an integer n and prints a right-aligned triangle[cite: 3]
+ * where numbers count upwards continuously from 1 to the end.[cite: 3]
+ * 
+ * <p><b>Example:</b></p>
+ * <pre>
+ * Input: n = 4
+ * Output:
+ *       1 
+ *     2 3 
+ *   4 5 6 
+ * 7 8 9 10 
+ * </pre>
+ */
 public class Q18_MirrorImageContinuousNumberTriangle {
     
-	/**
-	 * @author SUDHIR
-	 * Question: Mirror Image Continuous Number Triangle Pattern
-	 * Description: This program takes an integer n and prints a right-aligned triangle[cite: 3]
-	 * where numbers count upwards continuously from 1 to the end.[cite: 3]
-	 * 
-	 * <p><b>Example:</b></p>
-	 * <pre>
-	 * Input: n = 4
-	 * Output:
-	 *       1 
-	 *     2 3 
-	 *   4 5 6 
-	 * 7 8 9 10 
-	 * </pre>
-	 */
 	public static void main(String[] args) {
 		
 		Scanner s = new Scanner(System.in);

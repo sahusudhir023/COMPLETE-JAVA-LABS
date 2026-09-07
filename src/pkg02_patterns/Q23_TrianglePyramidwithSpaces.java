@@ -2,24 +2,25 @@ package pkg02_patterns;
 
 import java.util.Scanner;
 
+
+/**
+ * @author SUDHIR
+ * Question: Equilateral Star Pyramid Pattern
+ * Description: This program takes an integer n and prints a centered equilateral 
+ * triangle pattern of stars with gaps between them.
+ * 
+ * <p><b>Example:</b></p>
+ * <pre>
+ * Input: n = 4
+ * Output:
+ *    * 
+ *   * * 
+ *  * * * 
+ * * * * * 
+ * </pre>
+ */
 public class Q23_TrianglePyramidwithSpaces {
     
-	/**
-	 * @author SUDHIR
-	 * Question: Equilateral Star Pyramid Pattern
-	 * Description: This program takes an integer n and prints a centered equilateral 
-	 * triangle pattern of stars with gaps between them.
-	 * 
-	 * <p><b>Example:</b></p>
-	 * <pre>
-	 * Input: n = 4
-	 * Output:
-	 *    * 
-	 *   * * 
-	 *  * * * 
-	 * * * * * 
-	 * </pre>
-	 */
 	public static void main(String[] args) {
 		
 		Scanner s = new Scanner(System.in);

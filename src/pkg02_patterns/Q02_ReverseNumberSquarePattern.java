@@ -2,24 +2,25 @@ package pkg02_patterns;
 
 import java.util.Scanner;
 
+
+/**
+ * @author SUDHIR
+ * Question: Reverse Number Square Pattern
+ * Description: This program takes an input n and print n*n 
+ * square pattern with number counting backwards from n to 1. 
+ * 
+ * * <p><b>Example:</b></p>
+ * <pre>
+ * Input: n = 4
+ * Output:
+ * 4 3 2 1
+ * 4 3 2 1
+ * 4 3 2 1
+ * 4 3 2 1
+ * </pre>
+ */
 public class Q02_ReverseNumberSquarePattern {
     
-	/**
-	 * @author SUDHIR
-	 * Question: Reverse Number Square Pattern
-	 * Description: This program takes an input n and print n*n 
-	 * square pattern with number counting backwards from n to 1. 
-	 * 
-	 * * <p><b>Example:</b></p>
-     * <pre>
-     * Input: n = 4
-     * Output:
-     * 4 3 2 1
-     * 4 3 2 1
-     * 4 3 2 1
-     * 4 3 2 1
-     * </pre>
-	 */
 	public static void main(String[] args) {
 		
 		Scanner s = new Scanner(System.in);

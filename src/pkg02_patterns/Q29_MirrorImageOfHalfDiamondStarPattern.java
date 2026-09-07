@@ -2,29 +2,29 @@ package pkg02_patterns;
 
 import java.util.Scanner;
 
+
+/**
+ * @author SUDHIR
+ * Question: Mirror Image Of Half Diamond Star Pattern
+ * Description: This program takes an odd integer n and prints a mirror image of a 
+ * half diamond pattern of stars. It uses spaces to push the stars to the right side,
+ * creating a sharp right-aligned diamond reflection.
+ * 
+ * <p><b>Example:</b></p>
+ * <pre>
+ * Input: n = 7
+ * Output:
+ *             * 
+ *           * * 
+ *         * * * 
+ *       * * * * 
+ *         * * * 
+ *           * * 
+ *             * 
+ * </pre>
+ */
 public class Q29_MirrorImageOfHalfDiamondStarPattern {
 	
-	
-	/**
-	 * @author SUDHIR
-	 * Question: Mirror Image Of Half Diamond Star Pattern
-	 * Description: This program takes an odd integer n and prints a mirror image of a 
-	 * half diamond pattern of stars. It uses spaces to push the stars to the right side,
-	 * creating a sharp right-aligned diamond reflection.
-	 * 
-	 * <p><b>Example:</b></p>
-	 * <pre>
-	 * Input: n = 7
-	 * Output:
-	 *             * 
-	 *           * * 
-	 *         * * * 
-	 *       * * * * 
-	 *         * * * 
-	 *           * * 
-	 *             * 
-	 * </pre>
-	 */
 	public static void main(String[] args) {
 		
 		Scanner s = new Scanner(System.in);

@@ -2,24 +2,25 @@ package pkg02_patterns;
 
 import java.util.Scanner;
 
+
+/**
+ * @author SUDHIR
+ * Question: Palindrome Number Pyramid Pattern
+ * Description: This program takes an integer n and prints a centered pyramid where 
+ * numbers increase from 1 to the row number, and then decrease back to 1.
+ * 
+ * <p><b>Example:</b></p>
+ * <pre>
+ * Input: n = 4
+ * Output:
+ *       1 
+ *     1 2 1 
+ *   1 2 3 2 1 
+ * 1 2 3 4 3 2 1 
+ * </pre>
+ */
 public class Q24_PalindromeNumberPyramid {
     
-	/**
-	 * @author SUDHIR
-	 * Question: Palindrome Number Pyramid Pattern
-	 * Description: This program takes an integer n and prints a centered pyramid where 
-	 * numbers increase from 1 to the row number, and then decrease back to 1.
-	 * 
-	 * <p><b>Example:</b></p>
-	 * <pre>
-	 * Input: n = 4
-	 * Output:
-	 *       1 
-	 *     1 2 1 
-	 *   1 2 3 2 1 
-	 * 1 2 3 4 3 2 1 
-	 * </pre>
-	 */
 	public static void main(String[] args) {
 		
 		Scanner s = new Scanner(System.in);

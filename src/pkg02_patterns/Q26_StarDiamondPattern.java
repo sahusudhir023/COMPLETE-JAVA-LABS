@@ -2,24 +2,25 @@ package pkg02_patterns;
 
 import java.util.Scanner;
 
+
+/**
+ * @author SUDHIR
+ * Question: Star Diamond Pattern
+ * Description: This program takes an integer n and prints a full centered diamond 
+ * pattern of stars, consisting of an upper pyramid and a lower inverted pyramid.
+ * * <p><b>Example:</b></p>
+ * <pre>
+ * Input: n = 5
+ * Output:
+ *     *
+ *   * * *
+ * * * * * *  
+ *   * * *
+ *     * 
+ * </pre>
+ */
 public class Q26_StarDiamondPattern {
 	
-	/**
-	 * @author SUDHIR
-	 * Question: Star Diamond Pattern
-	 * Description: This program takes an integer n and prints a full centered diamond 
-	 * pattern of stars, consisting of an upper pyramid and a lower inverted pyramid.
-	 * * <p><b>Example:</b></p>
-	 * <pre>
-	 * Input: n = 5
-	 * Output:
-	 *     *
-	 *   * * *
-	 * * * * * *  
-	 *   * * *
-	 *     * 
-	 * </pre>
-	 */
 	public static void main(String[] args) {
 		
 		Scanner s = new Scanner(System.in);

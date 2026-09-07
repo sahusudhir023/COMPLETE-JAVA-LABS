@@ -2,23 +2,25 @@ package pkg02_patterns;
 
 import java.util.Scanner;
 
+
+/**
+ * @author SUDHIR
+ * Question: Square Star Pattern
+ * Description: This program takes an integer n and print n * n star pattern.
+ * 
+ * * <p><b>Example:</b></p>
+ * <pre>
+ * Input: n = 4
+ * Output:
+ * * * * * 
+ * * * * * 
+ * * * * * 
+ * * * * * 
+ * * * * * 
+ * </pre>
+ */
 public class Q01_SquareStarPattern {
 	
-	/**
-	 * @author SUDHIR
-	 * Question: Square Star Pattern
-	 * Description: This program takes an integer n and print n * n star pattern.
-	 * 
-	 * * <p><b>Example:</b></p>
-	 * <pre>
-	 * Input: n = 4
-	 * Output:
-	 * * * * * 
-     * * * * * 
-     * * * * * 
-     * * * * * 
-     * * * * * 
-	 */
 	public static void main(String[] args) {
 		
 		Scanner s = new Scanner(System.in);
@@ -31,7 +33,7 @@ public class Q01_SquareStarPattern {
 			int j = 1; // j represents the current column
 			
 			while(j <= n) {				
-				System.out.print("*" + " ");
+				System.out.print("* ");
 				j++;
 			}
 			

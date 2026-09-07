@@ -2,23 +2,24 @@ package pkg02_patterns;
 
 import java.util.Scanner;
 
+
+/**
+ * @author SUDHIR Question: Triangular Star Pattern 
+ * Description: This program takes an integer n and 
+ * print a right-angled triangle of stars.
+ * 
+ * *  <p><b>Example:</b></p>
+ * <pre>
+ * Input: n = 4
+ * Output:
+ * *
+ * * *
+ * * * *
+ * * * * *
+ * </pre>
+ */
 public class Q04_TriangularStarPattern {
 
-	/**
-	 * @author SUDHIR Question: Triangular Star Pattern 
-	 * Description: This program takes an integer n and 
-	 * print a right-angled triangle of stars.
-	 * 
-	 * *  <p><b>Example:</b></p>
-	 * <pre>
-	 * Input: n = 4
-	 * Output:
-	 * *
-	 * * *
-	 * * * *
-	 * * * * *
-	 * </pre>
-	 */
 	public static void main(String[] args) {
 
 		Scanner s = new Scanner(System.in);

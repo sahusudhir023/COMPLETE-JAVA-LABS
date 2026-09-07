@@ -2,26 +2,27 @@ package pkg02_patterns;
 
 import java.util.Scanner;
 
+
+/**
+ * @author SUDHIR
+ * Question: Reverse Row Starting Character Triangle Pattern
+ * Description: This program takes an integer n and prints a triangle pattern 
+ * where rows start from a reverse character offset based on n, and increment 
+ * upwards column by column.
+ * 
+ * <p><b>Example:</b></p>
+ * <pre>
+ * Input: n = 5
+ * Output:
+ * E 
+ * D E 
+ * C D E 
+ * B C D E 
+ * A B C D E 
+ * </pre>
+ */
 public class Q14_InterestingAlphabetsPattern {
     
-	/**
-	 * @author SUDHIR
-	 * Question: Reverse Row Starting Character Triangle Pattern
-	 * Description: This program takes an integer n and prints a triangle pattern 
-	 * where rows start from a reverse character offset based on n, and increment 
-	 * upwards column by column.
-	 * 
-	 * <p><b>Example:</b></p>
-	 * <pre>
-	 * Input: n = 5
-	 * Output:
-	 * E 
-	 * D E 
-	 * C D E 
-	 * B C D E 
-	 * A B C D E 
-	 * </pre>
-	 */
 	public static void main(String[] args) {
 		
 		Scanner s = new Scanner(System.in);

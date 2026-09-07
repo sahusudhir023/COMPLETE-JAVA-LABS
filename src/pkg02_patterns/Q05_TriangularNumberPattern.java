@@ -2,24 +2,25 @@ package pkg02_patterns;
 
 import java.util.Scanner;
 
+
+/**
+ * @author SUDHIR
+ * Question: Triangular Number Pattern
+ * Description: This program takes an integer n and prints a right-angled triangle 
+ * where each row starts from 1 and counts up to the current row number.
+ * 
+ * * <p><b>Example:</b></p>
+ * <pre>
+ * Input: n = 4
+ * Output:
+ * 1
+ * 1 2 
+ * 1 2 3
+ * 1 2 3 4
+ * </pre>
+ */
 public class Q05_TriangularNumberPattern {
     
-	/**
-	 * @author SUDHIR
-	 * Question: Triangular Number Pattern
-	 * Description: This program takes an integer n and prints a right-angled triangle 
-     * where each row starts from 1 and counts up to the current row number.
-     * 
-     * * <p><b>Example:</b></p>
-	 * <pre>
-	 * Input: n = 4
-	 * Output:
-	 * 1
-	 * 1 2 
-	 * 1 2 3
-	 * 1 2 3 4
-	 * </pre>
-	 */
 	public static void main(String[] args) {
 		
 		Scanner s = new Scanner(System.in);

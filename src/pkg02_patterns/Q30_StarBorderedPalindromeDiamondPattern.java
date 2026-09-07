@@ -2,26 +2,27 @@ package pkg02_patterns;
 
 import java.util.Scanner;
 
+
+/**
+ * @author SUDHIR
+ * Question: Star-Bordered Palindrome Diamond Pattern
+ * Description: This program takes an integer n and prints a diamond pattern where 
+ * numbers follow a palindrome sequence, bordered by stars on both sides.
+ * * <p><b>Example:</b></p>
+ * <pre>
+ * Input: n = 7
+ * Output:
+ * *
+ * *1*
+ * *121*
+ * *12321*
+ * *121*
+ * *1*
+ * *
+ * </pre>
+ */
 public class Q30_StarBorderedPalindromeDiamondPattern {
 	
-	/**
-	 * @author SUDHIR
-	 * Question: Star-Bordered Palindrome Diamond Pattern
-	 * Description: This program takes an integer n and prints a diamond pattern where 
-	 * numbers follow a palindrome sequence, bordered by stars on both sides.
-	 * * <p><b>Example:</b></p>
-	 * <pre>
-	 * Input: n = 7
-	 * Output:
-	 * *
-	 * *1*
-	 * *121*
-	 * *12321*
-	 * *121*
-	 * *1*
-	 * *
-	 * </pre>
-	 */
 	public static void main(String[] args) {
 		
 		Scanner s = new Scanner(System.in);

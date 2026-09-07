@@ -2,24 +2,25 @@ package pkg02_patterns;
 
 import java.util.Scanner;
 
+
+/**
+ * @author SUDHIR
+ * Question: Palindrome Row-Starting Increment Pyramid Pattern
+ * Description: This program takes an integer n and prints a centered pyramid where[cite: 3]
+ * each row starts at the row number, increments to a peak, and then decreases.
+ * 
+ * <p><b>Example:</b></p>
+ * <pre>
+ * Input: n = 4
+ * Output:
+ *       1 
+ *     2 3 2 
+ *   3 4 5 4 3 
+ * 4 5 6 7 6 5 4 
+ * </pre>
+ */
 public class Q25_PalindromeRowStartingIncrementPyramid {
     
-	/**
-	 * @author SUDHIR
-	 * Question: Palindrome Row-Starting Increment Pyramid Pattern
-	 * Description: This program takes an integer n and prints a centered pyramid where[cite: 3]
-	 * each row starts at the row number, increments to a peak, and then decreases.
-	 * 
-	 * <p><b>Example:</b></p>
-	 * <pre>
-	 * Input: n = 4
-	 * Output:
-	 *       1 
-	 *     2 3 2 
-	 *   3 4 5 4 3 
-	 * 4 5 6 7 6 5 4 
-	 * </pre>
-	 */
 	public static void main(String[] args) {
 		
 		Scanner s = new Scanner(System.in);

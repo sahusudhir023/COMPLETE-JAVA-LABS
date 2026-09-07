@@ -2,23 +2,25 @@ package pkg02_patterns;
 
 import java.util.Scanner;
 
+
+/**
+ * @author SUDHIR
+ * Question: Row Starting Increment Triangle Pattern
+ * Description: This program takes an integer n and prints a triangle where 
+ * each row starts with the row number itself and increments by 1.
+ * 
+ * <p><b>Example:</b></p>
+ * <pre>
+ * Input: n = 4
+ * Output:
+ * 1 
+ * 2 3 
+ * 3 4 5 
+ * 4 5 6 7 
+ * </pre>
+ */
 public class Q06_RowStartingIncrementTrianglePattern {
 	
-	/**
-	 * @author SUDHIR
-	 * Question: Row Starting Increment Triangle Pattern
-	 * Description: This program takes an integer n and prints a triangle where 
-	 * each row starts with the row number itself and increments by 1.
-	 * 
-	 * <p><b>Example:</b></p>
-	 * <pre>
-	 * Input: n = 4
-	 * Output:
-	 * 1 
-     * 2 3 
-	 * 3 4 5 
-	 * 4 5 6 7 
-	 */
 	public static void main(String[] args) {
 		
 		Scanner s = new Scanner(System.in);

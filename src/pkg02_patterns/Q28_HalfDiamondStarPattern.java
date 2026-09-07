@@ -2,30 +2,30 @@ package pkg02_patterns;
 
 import java.util.Scanner;
 
+
+/**
+ * @author SUDHIR
+ * Question: Half Diamond Star Pattern
+ * Description: This program takes an integer n (representing the peak row size) 
+ * and prints a half diamond pattern of stars that grows up to the peak and 
+ * then decreases back to a single star.
+ * * <p><b>Example:</b></p>
+ * <pre>
+ * Input: n = 7
+ * Output:
+ *  *
+ *  * *
+ *  * * *
+ *  * * * *
+ *  * * * * *
+ *  * * * *
+ *  * * *
+ *  * *
+ *  *
+ * </pre>
+ */
 public class Q28_HalfDiamondStarPattern {
 	
-	
-	/**
-	 * @author SUDHIR
-	 * Question: Half Diamond Star Pattern
-	 * Description: This program takes an integer n (representing the peak row size) 
-	 * and prints a half diamond pattern of stars that grows up to the peak and 
-	 * then decreases back to a single star.
-	 * * <p><b>Example:</b></p>
-	 * <pre>
-	 * Input: n = 7
-	 * Output:
-	 *  *
-	 *  * *
-	 *  * * *
-	 *  * * * *
-	 *  * * * * *
-	 *  * * * *
-	 *  * * *
-	 *  * *
-	 *  *
-	 * </pre>
-	 */
 	public static void main(String[] args) {
 		
 		Scanner s = new Scanner(System.in);

@@ -2,24 +2,24 @@ package pkg02_patterns;
 
 import java.util.Scanner;
 
-public class Q22_StandardStarPyramid {
+/**
+ * @author SUDHIR
+ * Question: Standard Star Pyramid Pattern
+ * Description: This program takes an integer n and prints a full centered pyramid 
+ * pattern of stars using only two loops by applying the formula (2 * i - 1).
+ * 
+ * <p><b>Example:</b></p>
+ * <pre>
+ * Input: n = 4
+ * Output:
+ *       * 
+ *     * * * 
+ *   * * * * * 
+ * * * * * * * * 
+ * </pre>
+ */
+public class Q22_B_StandardStarPyramid {
     
-	/**
-	 * @author SUDHIR
-	 * Question: Standard Star Pyramid Pattern
-	 * Description: This program takes an integer n and prints a full centered pyramid 
-	 * pattern of stars using only two loops by applying the formula (2 * i - 1).
-	 * 
-	 * <p><b>Example:</b></p>
-	 * <pre>
-	 * Input: n = 4
-	 * Output:
-	 *       * 
-	 *     * * * 
-	 *   * * * * * 
-	 * * * * * * * * 
-	 * </pre>
-	 */
 	public static void main(String[] args) {
 		
 		Scanner s = new Scanner(System.in);

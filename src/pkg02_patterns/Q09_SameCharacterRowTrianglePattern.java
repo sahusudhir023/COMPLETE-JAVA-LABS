@@ -2,25 +2,27 @@ package pkg02_patterns;
 
 import java.util.Scanner;
 
+
+/**
+ * @author SUDHIR
+ * Question: Same Character Row Triangle Pattern
+ * Description: This program takes an integer n and prints a triangle pattern
+ * where each row contains the same character, starting from 'A' and changing
+ * to the next alphabet in every new row.
+ * 
+ * <p><b>Example:</b></p>
+ * <pre>
+ * Input: n = 4
+ * Output:
+ * A 
+ * B B 
+ * C C C 
+ * D D D D 
+ * </pre>
+ */
 public class Q09_SameCharacterRowTrianglePattern {
 	
-	/**
-	 * @author SUDHIR
-	 * Question: Same Character Row Triangle Pattern
-	 * Description: This program takes an integer n and prints a triangle pattern
-	 * where each row contains the same character, starting from 'A' and changing
-	 * to the next alphabet in every new row.
-	 * 
-	 * <p><b>Example:</b></p>
-	 * <pre>
-	 * Input: n = 4
-	 * Output:
-	 * A 
-	 * B B 
-	 * C C C 
-	 * D D D D 
-	 * </pre>
-	 */
+	
 	public static void main(String[] args) {
 		
 		Scanner s = new Scanner(System.in);
